@@ -5,7 +5,7 @@ const PORT = 8080;
 const server = http.createServer((req, res) => {
   if (req.method === "GET" && req.url === "/") {
     res.writeHead(200, { "Content-Type": "text/plain" });
-    res.end("Sun 12 april testing 2026");
+    res.end("Monday 13 april testing 2026");
   } else {
     res.writeHead(404, { "Content-Type": "text/plain" });
     res.end("Not Found");
